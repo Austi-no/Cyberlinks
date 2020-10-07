@@ -7,10 +7,7 @@
     "start": "node app.js",
     "build": "cd Blog && ng build --prod && cd.. && node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Austi-no/Cyberlinks.git"
-  },
+
   "author": "Austine",
   "license": "ISC",
   "dependencies": {
