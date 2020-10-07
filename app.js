@@ -16,7 +16,7 @@ const port = process.env.PORT || 8080
 
 // database connection
 
-mongoose.connect(config.url, {
+mongoose.connect(config.url || "mongodb://localhost:27017/BlogDB", {
     useFindAndModify: false,
     useNewUrlParser: true,
     useUnifiedTopology: true,

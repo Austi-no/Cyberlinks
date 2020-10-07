@@ -7,10 +7,11 @@
     "start": "node app.js",
     "build": "cd Blog && ng build --prod && cd.. && node app.js"
   },
-
   "author": "Austine",
   "license": "ISC",
   "dependencies": {
+    "@angular/cli": "^10.1.4",
+    "@angular/compiler-cli": "^10.1.4",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
