@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build": "cd Blog && ng build --prod && cd.. && node app.js"
+    "build": "cd Blog && ng build --output-path dist && cd.. && node app.js"
   },
   "author": "Austine",
   "license": "ISC",
